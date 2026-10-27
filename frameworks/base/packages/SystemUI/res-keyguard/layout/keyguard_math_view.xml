@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tela Soma: o usuário digita a soma de dois números de 0 a 9 -->
+<com.android.keyguard.KeyguardMathView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyguard_math_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|bottom"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <include layout="@layout/keyguard_bouncer_message_area" />
+
+   
+    <TextView
+        android:id="@+id/math_challenge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="56sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/math_answer"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:hint="@string/keyguard_math_answer_hint"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/math_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/keyguard_math_wrong"
+        android:textColor="?android:attr/colorError"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/math_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/keyguard_math_confirm" />
+
+</com.android.keyguard.KeyguardMathView>

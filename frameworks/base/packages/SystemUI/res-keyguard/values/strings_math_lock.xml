@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos da Tela Soma (desafio matemático no keyguard) -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_math_title">Tela Soma</string>
+    <string name="keyguard_math_instruction">Digite a soma dos números para desbloquear</string>
+    <string name="keyguard_math_challenge"><xliff:g id="first" example="3">%1$d</xliff:g> + <xliff:g id="second" example="5">%2$d</xliff:g></string>
+    <string name="keyguard_math_answer_hint">Resultado</string>
+    <string name="keyguard_math_confirm">Desbloquear</string>
+    <string name="keyguard_math_wrong">Resposta errada. Tente com os novos números.</string>
+</resources>

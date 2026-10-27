@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos da Tela Soma na tela de escolha do bloqueio -->
+<resources>
+    <!-- Nome da opção na lista de Bloqueio de tela -->
+    <string name="unlock_set_unlock_math_title">Tela Soma</string>
+    <!-- Descrição curta exibida abaixo do nome -->
+    <string name="unlock_set_unlock_math_summary">Digite a soma de dois números para desbloquear</string>
+</resources>
